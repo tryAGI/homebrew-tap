@@ -1,6 +1,6 @@
 # tryAGI Homebrew Tap
 
-Homebrew formulae for [tryAGI](https://github.com/tryAGI) tools.
+Homebrew casks and formulae for [tryAGI](https://github.com/tryAGI) tools.
 
 ## Install
 
@@ -8,11 +8,13 @@ Homebrew formulae for [tryAGI](https://github.com/tryAGI) tools.
 brew tap tryAGI/tap
 ```
 
-## Available Formulae
+## Available Casks
 
-| Formula | Description | Install |
-|---------|-------------|---------|
+| Cask | Description | Install |
+|------|-------------|---------|
 | [ttok](https://github.com/tryAGI/Tiktoken) | The fastest CLI for counting, encoding, decoding, and exploring BPE tokens | `brew install tryAGI/tap/ttok` |
+
+The cask always installs the latest release automatically — no tap updates needed.
 
 ## Usage
 
